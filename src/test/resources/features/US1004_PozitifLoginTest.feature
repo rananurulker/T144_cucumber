@@ -1,5 +1,5 @@
 Feature: US1004 kullanici gecerli datalarla sisteme girer
-
+  @E2E
   Scenario: TC10 gecerli degerlerle sisteme giris yapabilmeli
     Given kullanici toUrl adresine gider
     Then account butonuna basar

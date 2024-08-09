@@ -8,6 +8,7 @@ Feature: US1002 kullanici ortak baslangic adimlarini background olarak yazabilir
     Then arama kutusuna phone yazip aratir
     And arama sonucunda urun bulunabildigini test eder
     And sayfayi kapatir
+    @E2E
 
   Scenario: TC02 kullanici testotomasyonu.comda dress aratip urun bulabilmeli
 

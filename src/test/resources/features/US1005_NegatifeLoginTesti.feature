@@ -10,7 +10,7 @@ Feature: US1005 kullanici gecersiz datalarla sisteme giris yapamaz
     When signIn butonuna basar
     Then sisteme giris yapilamadigini test eder
     And sayfayi kapatir
-
+  @E2E
   Scenario: TC12 Gecerli email ile sisteme giris yapilmaz
     Given kullanici toUrl adresine gider
     Then account butonuna basar
